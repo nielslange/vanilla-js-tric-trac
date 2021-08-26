@@ -13,11 +13,12 @@ Vanilla JS implementation of the Backgammon variation Tric-Trac.
 - If the lower number of the dice cannot be played, the turn switches.
 - If a player rolls a double (e.g. 1 + 1), the number is played four times (e.g. 4 * 1).
 - If a player rolls a tric-trac, the player plays 2 * 1 & 2 * 2 & 2 * 5 & 2 * 6.
+- If a player rolls a 3 and a 4, the player is allowed to move backwards.
 - Each player starts in their 1st quarter.
 - A player can only move dice to the 2nd and 3rd quarter, if all player's dice are on the board.
-- A player can only move dice into teh 4th quarter, if mo more dice are in the 1st quarter.
+- A player can only move dice into the 4th quarter, if mo more dice are in the 1st quarter.
 - All dice in the 4th quarter cannot be moved within that quarter.
-- All dice in teh 4th quarter need to be thrown out with an exact number.
+- All dice in the 4th quarter need to be thrown out with an exact number.
 - A single checker in a row is unprotected and can be thrown out by the competitor.
 - Two or more checker in a row are protected and blocking this row for the competitor.
 - A checker that had been thrown out by the competitor must be brought in before making other moves.
